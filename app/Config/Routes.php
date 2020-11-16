@@ -38,6 +38,7 @@ $routes->get('/dewi', function(){
 	echo view ("mahasiswa/footer");
 
 });
+$routes->get('/projects', 'Pages::index');
 $routes->get('/coba/(:any)/(:num)', 'Helloworld::index/$1/$2');
 
 /**
